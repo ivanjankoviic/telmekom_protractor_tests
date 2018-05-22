@@ -1,0 +1,3728 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Admin portal Activity Log page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/AdminPortalActivityLog.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check route for the Admin Activity Log page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@activityLogRoute"
+          },
+          {
+            "line": 3,
+            "name": "@all"
+          },
+          {
+            "line": 3,
+            "name": "@adminPortalActivityLog"
+          }
+        ],
+        "id": "admin-portal-activity-log-page;check-route-for-the-admin-activity-log-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 5590
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "passed",
+              "duration": 677
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "passed",
+              "duration": 90
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "passed",
+              "duration": 69
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Activity Log",
+            "result": {
+              "status": "failed",
+              "duration": 10008,
+              "error_message": "TimeoutError: Wait timed out after 10000ms\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n    at ControlFlow.wait (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n    at thenableWebDriverProxy.wait (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n    at run (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/browser.js:59:33)\n    at ProtractorBrowser.to.(anonymous function) [as wait] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/browser.js:67:16)\n    at SideMenu.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/pages/SideMenuPage.ts:57:23)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/SideMenuPage.js:43:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/SideMenuPage.js:24:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/SideMenuPage.js:18:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/SideMenuPage.js:14:12)\n    at SideMenu.clickActivityLog (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/SideMenuPage.js:92:16)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:17:24)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/SideMenuSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/SideMenuSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/SideMenuSteps.js:7:71"
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check Activity Log route \"http://telmekom-client-staging2.digitalcube.rs/activity-log\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalActivityLogSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Check number of users in activity log table",
+        "tags": [
+          {
+            "line": 16,
+            "name": "@numberOfUsersInActivityLogTable"
+          },
+          {
+            "line": 16,
+            "name": "@all"
+          },
+          {
+            "line": 16,
+            "name": "@adminPortalActivityLog"
+          }
+        ],
+        "id": "admin-portal-activity-log-page;check-number-of-users-in-activity-log-table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 631
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "passed",
+              "duration": 664
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "passed",
+              "duration": 93
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "passed",
+              "duration": 77
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Activity Log",
+            "result": {
+              "status": "passed",
+              "duration": 5827
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I checking number of users in table to be \"15\"",
+            "result": {
+              "status": "passed",
+              "duration": 1306
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "passed",
+              "duration": 200
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "passed",
+              "duration": 173
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "admin-portal-activity-log-page"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Admin portal client page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/AdminPortalClient.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check route for the  Admin portal client page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@clientRoute"
+          },
+          {
+            "line": 3,
+            "name": "@all"
+          },
+          {
+            "line": 3,
+            "name": "@adminPortalClient"
+          }
+        ],
+        "id": "admin-portal-client-page;check-route-for-the--admin-portal-client-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 504
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "passed",
+              "duration": 660
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "passed",
+              "duration": 81
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "passed",
+              "duration": 71
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check Admin portal client route \"http://telmekom-client-staging2.digitalcube.rs/\"",
+            "result": {
+              "status": "passed",
+              "duration": 8374
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "passed",
+              "duration": 162
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "passed",
+              "duration": 212
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Check number of users in client table",
+        "tags": [
+          {
+            "line": 14,
+            "name": "@numberOfUsersInClientTable"
+          },
+          {
+            "line": 14,
+            "name": "@all"
+          },
+          {
+            "line": 14,
+            "name": "@adminPortalClient"
+          }
+        ],
+        "id": "admin-portal-client-page;check-number-of-users-in-client-table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 356
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "passed",
+              "duration": 652
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "passed",
+              "duration": 79
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "passed",
+              "duration": 74
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I checking number of users in table to be \"10\"",
+            "result": {
+              "status": "passed",
+              "duration": 5313
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "passed",
+              "duration": 181
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "passed",
+              "duration": 188
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Check Title on login page",
+        "tags": [
+          {
+            "line": 25,
+            "name": "@titleCheckAdminPage"
+          },
+          {
+            "line": 25,
+            "name": "@all"
+          },
+          {
+            "line": 25,
+            "name": "@adminPortalClient"
+          }
+        ],
+        "id": "admin-portal-client-page;check-title-on-login-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 330
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "passed",
+              "duration": 661
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "passed",
+              "duration": 84
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "passed",
+              "duration": 67
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check title to be \"ONE Portal\"",
+            "result": {
+              "status": "passed",
+              "duration": 5295
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:113"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "passed",
+              "duration": 188
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "passed",
+              "duration": 213
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "admin-portal-client-page"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Admin portal Orders page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/AdminPortalOrders.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check route for the Orders page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ordersRoute"
+          },
+          {
+            "line": 3,
+            "name": "@all"
+          },
+          {
+            "line": 3,
+            "name": "@adminPortalOrders"
+          }
+        ],
+        "id": "admin-portal-orders-page;check-route-for-the-orders-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 337
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "passed",
+              "duration": 652
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "passed",
+              "duration": 86
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "passed",
+              "duration": 71
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Orders",
+            "result": {
+              "status": "passed",
+              "duration": 5659
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check Orders route \"http://telmekom-client-staging2.digitalcube.rs/orders\"",
+            "result": {
+              "status": "passed",
+              "duration": 3122
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalOrdersSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "passed",
+              "duration": 173
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "passed",
+              "duration": 205
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Check number of users in Orders table",
+        "tags": [
+          {
+            "line": 15,
+            "name": "@numberOfUsersInOrdersTable"
+          },
+          {
+            "line": 15,
+            "name": "@all"
+          },
+          {
+            "line": 15,
+            "name": "@adminPortalOrders"
+          }
+        ],
+        "id": "admin-portal-orders-page;check-number-of-users-in-orders-table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 531
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "passed",
+              "duration": 652
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "passed",
+              "duration": 82
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "passed",
+              "duration": 66
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Orders",
+            "result": {
+              "status": "passed",
+              "duration": 5477
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I checking number of users in table to be \"2\"",
+            "result": {
+              "status": "failed",
+              "duration": 3116,
+              "error_message": "AssertionError: expected 5 to equal 2\n    at /home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:32:33\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)"
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "admin-portal-orders-page"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "CallLog page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/CallLog.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check route for the CallLog page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@callLogRoute"
+          },
+          {
+            "line": 3,
+            "name": "@all"
+          },
+          {
+            "line": 3,
+            "name": "@callLog"
+          }
+        ],
+        "id": "calllog-page;check-route-for-the-calllog-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 340
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4616,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"A. FREI Logistics GmbH/srl\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Check number of users in Call Log table",
+        "tags": [
+          {
+            "line": 17,
+            "name": "@numberOfUsersInCallLogTableACR"
+          },
+          {
+            "line": 17,
+            "name": "@all"
+          },
+          {
+            "line": 17,
+            "name": "@callLog"
+          }
+        ],
+        "id": "calllog-page;check-number-of-users-in-call-log-table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 480
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4412,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"A. FREI Logistics GmbH/srl\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "calllog-page"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Header activities",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/Header.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Check text when user click on english language",
+        "tags": [
+          {
+            "line": 23,
+            "name": "@english"
+          },
+          {
+            "line": 23,
+            "name": "@all"
+          },
+          {
+            "line": 23,
+            "name": "@header"
+          }
+        ],
+        "id": "header-activities;check-text-when-user-click-on-english-language",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 339
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4613,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select English language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check header titile to be \"Clients list\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ClientPortalSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Check text when user click on italian language",
+        "tags": [
+          {
+            "line": 36,
+            "name": "@italian"
+          },
+          {
+            "line": 36,
+            "name": "@all"
+          },
+          {
+            "line": 36,
+            "name": "@header"
+          }
+        ],
+        "id": "header-activities;check-text-when-user-click-on-italian-language",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 357
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4860,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select Italian language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check header titile to be \"Lista clienti\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ClientPortalSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select English language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Check text when user click on german language",
+        "tags": [
+          {
+            "line": 51,
+            "name": "@german"
+          },
+          {
+            "line": 51,
+            "name": "@all"
+          },
+          {
+            "line": 51,
+            "name": "@header"
+          }
+        ],
+        "id": "header-activities;check-text-when-user-click-on-german-language",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 455
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4663,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 54,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select German language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check header titile to be \"Kundenliste\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ClientPortalSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click to select English language",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "header-activities"
+  },
+  {
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Invoices page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/Invoices.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Check route for the Invoices page",
+        "tags": [
+          {
+            "line": 5,
+            "name": "@id/invoicesRoute"
+          },
+          {
+            "line": 5,
+            "name": "@all"
+          },
+          {
+            "line": 5,
+            "name": "@invoices"
+          }
+        ],
+        "id": "invoices-page;check-route-for-the-invoices-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 328
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4763,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"ACR\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Invoices",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check IdInvoicesroute \"http://telmekom-client-staging2.digitalcube.rs/u00000jEYu/invoices\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/InvoicesSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I refresh page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check IdInvoicesroute \"http://telmekom-client-staging2.digitalcube.rs/u00000jEYu/invoices\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/InvoicesSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Check number of users in Invoices table",
+        "tags": [
+          {
+            "line": 21,
+            "name": "@numberOfUsersInCarierOtherInvoicesTableACR"
+          },
+          {
+            "line": 21,
+            "name": "@all"
+          },
+          {
+            "line": 21,
+            "name": "@invoices"
+          }
+        ],
+        "id": "invoices-page;check-number-of-users-in-invoices-table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 331
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4720,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"ACR\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Invoices",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I checking number of users in table to be \"10\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Other Invoices",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/InvoicesSteps.ts:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I checking number of users in table to be \"15\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I refresh page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I checking number of users in table to be \"10\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Other Invoices",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/InvoicesSteps.ts:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I checking number of users in table to be \"15\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "invoices-page"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/Login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Check route for the forgot password page",
+        "tags": [
+          {
+            "line": 8,
+            "name": "@forgotPassword"
+          },
+          {
+            "line": 8,
+            "name": "@all"
+          },
+          {
+            "line": 8,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-route-for-the-forgot-password-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 339
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on forgot password",
+            "result": {
+              "status": "failed",
+              "duration": 4522,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, .forgot-password)\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:27:80)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:3:12)\n    at World.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26:42)"
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check login route \"http://telmekom-client-staging2.digitalcube.rs/forgot\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:20"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Check alert message when user write wrong email",
+        "tags": [
+          {
+            "line": 14,
+            "name": "@wrongEmail"
+          },
+          {
+            "line": 14,
+            "name": "@all"
+          },
+          {
+            "line": 14,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-alert-message-when-user-write-wrong-email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 500
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"wrong@email.bla\"",
+            "result": {
+              "status": "failed",
+              "duration": 4518,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Telmekom1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect \"Invalid credentials\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:62"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Check alert message when user write wrong password",
+        "tags": [
+          {
+            "line": 22,
+            "name": "@wrongPassword"
+          },
+          {
+            "line": 22,
+            "name": "@all"
+          },
+          {
+            "line": 22,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-alert-message-when-user-write-wrong-password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 375
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"ivo@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4619,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"bla bla bla!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect \"Invalid credentials\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:62"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Check alert message when user write Email without Monkey",
+        "tags": [
+          {
+            "line": 30,
+            "name": "@wrongEmailWithoutMonkey"
+          },
+          {
+            "line": 30,
+            "name": "@all"
+          },
+          {
+            "line": 30,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-alert-message-when-user-write-email-without-monkey",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 500
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"ivodigitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4644,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"R\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect under username field \"Username not in correct format.\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:68"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Check login when user write username with capital letters",
+        "tags": [
+          {
+            "line": 41,
+            "name": "@emailWithCapitalLetters"
+          },
+          {
+            "line": 41,
+            "name": "@all"
+          },
+          {
+            "line": 41,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-login-when-user-write-username-with-capital-letters",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 333
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"iVo@DiGiTaLcUbE.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4623,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Telmekom1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check Admin portal client route \"http://telmekom-client-staging2.digitalcube.rs/\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Check route for the login page after refresh page",
+        "tags": [
+          {
+            "line": 49,
+            "name": "@checkLoginAfterRefresh"
+          },
+          {
+            "line": 49,
+            "name": "@all"
+          },
+          {
+            "line": 49,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-route-for-the-login-page-after-refresh-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 490
+            },
+            "line": 51,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check login route \"http://telmekom-client-staging2.digitalcube.rs/login\"",
+            "result": {
+              "status": "failed",
+              "duration": 10017,
+              "error_message": "TimeoutError: Wait timed out after 10012ms\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n    at ControlFlow.wait (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n    at thenableWebDriverProxy.wait (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n    at run (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/browser.js:59:33)\n    at ProtractorBrowser.to.(anonymous function) [as wait] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/browser.js:67:16)\n    at LoginPage.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/pages/LoginPage.ts:88:23)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/LoginPage.js:43:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/LoginPage.js:24:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/LoginPage.js:18:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/LoginPage.js:14:12)\n    at LoginPage.getRouteLogin (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/pages/LoginPage.js:117:16)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:21:25)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:7:71"
+            },
+            "line": 52,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I refresh page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check login route \"http://telmekom-client-staging2.digitalcube.rs/login\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:20"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Check route for the forgot password page after refresh page",
+        "tags": [
+          {
+            "line": 56,
+            "name": "@checkForgotPasswordAfterRefresh"
+          },
+          {
+            "line": 56,
+            "name": "@all"
+          },
+          {
+            "line": 56,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-route-for-the-forgot-password-page-after-refresh-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 509
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on forgot password",
+            "result": {
+              "status": "failed",
+              "duration": 181,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, .forgot-password)\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:27:80)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:3:12)\n    at World.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26:42)"
+            },
+            "line": 59,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check login route \"http://telmekom-client-staging2.digitalcube.rs/forgot\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:20"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Check password when we click on show-pass-eye",
+        "tags": [
+          {
+            "line": 62,
+            "name": "@checkShowPassEye"
+          },
+          {
+            "line": 62,
+            "name": "@all"
+          },
+          {
+            "line": 62,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-password-when-we-click-on-show-pass-eye",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 368
+            },
+            "line": 64,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"TEST! TEST! TEST!\"",
+            "result": {
+              "status": "failed",
+              "duration": 4147,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"pass\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:51:68)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:3:12)\n    at World.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50:72)"
+            },
+            "line": 65,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect type to be type \"password\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click show-pass-eye",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect type to be type \"text\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click show-pass-eye",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 69,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect type to be type \"password\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:107"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "Check forgot password with wrong username",
+        "tags": [
+          {
+            "line": 72,
+            "name": "@forgotPasswordWrongUsername"
+          },
+          {
+            "line": 72,
+            "name": "@all"
+          },
+          {
+            "line": 72,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-forgot-password-with-wrong-username",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 382
+            },
+            "line": 74,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on forgot password",
+            "result": {
+              "status": "failed",
+              "duration": 4184,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, .forgot-password)\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:27:80)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:3:12)\n    at World.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26:42)"
+            },
+            "line": 75,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check login route \"http://telmekom-client-staging2.digitalcube.rs/forgot\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"ivodigitalcube.rs\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 77,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect under username field \"Username not in correct format.\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 79,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:68"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "Fill and erase all input fields and check alerts",
+        "tags": [
+          {
+            "line": 81,
+            "name": "@fillAndEraseInputFields"
+          },
+          {
+            "line": 81,
+            "name": "@all"
+          },
+          {
+            "line": 81,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;fill-and-erase-all-input-fields-and-check-alerts",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 363
+            },
+            "line": 83,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click password input field",
+            "result": {
+              "status": "failed",
+              "duration": 4264,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"pass\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:96:68)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:3:12)\n    at World.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:95:44)"
+            },
+            "line": 84,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click username input field",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 85,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:90"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect under username field \"You must enter a value\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 86,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect under password field \"You must enter a value\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 87,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on forgot password",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click username input field",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:90"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on login card",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect under usernameForgotPassword field \"You must enter a value\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:80"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 94,
+        "name": "Check Sign In button on forgot password",
+        "tags": [
+          {
+            "line": 93,
+            "name": "@signInForgotPassword"
+          },
+          {
+            "line": 93,
+            "name": "@all"
+          },
+          {
+            "line": 93,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-sign-in-button-on-forgot-password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 367
+            },
+            "line": 95,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on forgot password",
+            "result": {
+              "status": "failed",
+              "duration": 4290,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, .forgot-password)\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:27:80)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at /home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:3:12)\n    at World.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26:42)"
+            },
+            "line": 96,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Sign In button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 97,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check login route \"http://telmekom-client-staging2.digitalcube.rs/login\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 98,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:20"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 101,
+        "name": "Check Title on login page",
+        "tags": [
+          {
+            "line": 100,
+            "name": "@titleCheckLoginPage"
+          },
+          {
+            "line": 100,
+            "name": "@all"
+          },
+          {
+            "line": 100,
+            "name": "@login"
+          }
+        ],
+        "id": "login-page;check-title-on-login-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 251
+            },
+            "line": 102,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check title to be \"Telmekom\"",
+            "result": {
+              "status": "failed",
+              "duration": 4431,
+              "error_message": "AssertionError: expected 'ONE Portal' to equal 'Telmekom'\n    at /home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:116:33\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)"
+            },
+            "line": 103,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:113"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "login-page"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Profile page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/Profile.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check route for the Profile page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@profileRoute"
+          },
+          {
+            "line": 3,
+            "name": "@all"
+          },
+          {
+            "line": 3,
+            "name": "@profilePage"
+          }
+        ],
+        "id": "profile-page;check-route-for-the-profile-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 379
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4350,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Profile button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check Profile route \"http://telmekom-client-staging2.digitalcube.rs/profile\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Check route for the Profile page",
+        "tags": [
+          {
+            "line": 16,
+            "name": "@id/ProfileRoute"
+          },
+          {
+            "line": 16,
+            "name": "@all"
+          },
+          {
+            "line": 16,
+            "name": "@profilePage"
+          }
+        ],
+        "id": "profile-page;check-route-for-the-profile-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 353
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4183,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"ACR\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check IdProfile route \"http://telmekom-client-staging2.digitalcube.rs/u00000jEYu/profile\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "profile-page"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Services page",
+    "tags": [],
+    "uri": "/home/ivan/work/vscProtractor/EACourseApp/Test/features/Services.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check route for the Services page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@id/servicesRoute"
+          },
+          {
+            "line": 3,
+            "name": "@all"
+          },
+          {
+            "line": 3,
+            "name": "@services"
+          }
+        ],
+        "id": "services-page;check-route-for-the-services-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 383
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4490,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"ACR\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Services",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check IdServicesRoute \"http://telmekom-client-staging2.digitalcube.rs/u00000jEYu/services\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ServicesSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Check route for the Services Data page",
+        "tags": [
+          {
+            "line": 17,
+            "name": "@id/dataServicesRoute"
+          },
+          {
+            "line": 17,
+            "name": "@all"
+          },
+          {
+            "line": 17,
+            "name": "@services"
+          }
+        ],
+        "id": "services-page;check-route-for-the-services-data-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 354
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4274,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"ACR\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Services",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Data Services",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ServicesSteps.ts:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check IdServicesDataRoute \"http://telmekom-client-staging2.digitalcube.rs/u00000jEYu/services/data/0\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ServicesSteps.ts:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Check route for the Services Voice page",
+        "tags": [
+          {
+            "line": 33,
+            "name": "@id/voiceServicesRoute"
+          },
+          {
+            "line": 33,
+            "name": "@all"
+          },
+          {
+            "line": 33,
+            "name": "@services"
+          }
+        ],
+        "id": "services-page;check-route-for-the-services-voice-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to Telmekom aplication",
+            "result": {
+              "status": "passed",
+              "duration": 356
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in username with \"test_bot@digitalcube.rs\"",
+            "result": {
+              "status": "failed",
+              "duration": 4295,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, *[name=\"username\"])\n    at elementArrayFinder.getWebElements.then (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/ivan/work/vscProtractor/EACourseApp/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)Error\n    at ElementArrayFinder.applyAction_ (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/home/ivan/work/vscProtractor/EACourseApp/node_modules/protractor/built/element.js:831:22)\n    at Object.<anonymous> (/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:44:65)\n    at step (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:32:23)\n    at Object.next (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:13:53)\n    at fulfilled (/home/ivan/work/vscProtractor/EACourseApp/out/**/*.js/Test/steps/LoginSteps.js:4:58)\n    at <anonymous>"
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill in password with \"Testbot1234!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press Login",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/LoginSteps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on search field \"ACR\" and press ENTER",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/AdminPortalClientSteps.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on client1",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ProfileSteps.ts:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Services",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/SideMenuSteps.ts:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Voice Services",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ServicesSteps.ts:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check IdServicesVoiceRoute \"http://telmekom-client-staging2.digitalcube.rs/u00000jEYu/services/misc/1\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/ServicesSteps.ts:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on user Profile Picture",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Logout",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/ivan/work/vscProtractor/EACourseApp/Test/steps/HeaderSpec.ts:21"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "services-page"
+  }
+]
